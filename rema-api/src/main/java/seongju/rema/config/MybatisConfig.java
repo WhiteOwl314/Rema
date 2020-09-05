@@ -16,7 +16,7 @@ import javax.sql.DataSource;
 
 @Configuration
 @MapperScan(
-        basePackages = "seongju.rema.test.dao"
+        basePackages = "seongju.rema.dao"
 )
 public class MybatisConfig {
     @Bean(name="oracleDatasource")
